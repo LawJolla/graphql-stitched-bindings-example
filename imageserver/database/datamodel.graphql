@@ -1,0 +1,5 @@
+type Image {
+  id: ID! @unique
+  url: String
+  postId: ID
+}
